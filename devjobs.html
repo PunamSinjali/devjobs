@@ -39,7 +39,7 @@
 
              <div class="collapse navbar-collapse" id="navMenu">
                 <div class="ms-auto">
-                    <a href="#" class="btn btn-danger rounded-pill fw-semibold" px-4
+                    <a href="#" class="btn btn-primary rounded-pill fw-semibold" px-4
                     >Post a job</a>
                     <!-- btn-accent = our custom class -->
                     <!-- rounded-pill = border-radius 999px -->
@@ -62,7 +62,49 @@
             <!-- badge = bootstrap class for badge -->
             <!-- bg-accent-subtle and tect accent = our custom class -->
             <!-- mb-3 = margin bottom -->
+
+            <h1 class="display-6" fw-bold mb-2>Find Your Next Role</h1>
+            <!-- display-6 = bootstrap large scale heading even bigger than h1 -->
+             <p class="text-muted mb-0" style="max-width: 400px margin=0 auto">
+                Curated jobs for developer
+             </p>
+             <!-- text-muted = bootstrap default grey color -->
          </div>
     </header>
+    <!-- end header -->
+     <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+            <!-- row = flex grid container direction row -->
+            <!-- g-4 => sets the gap between columns and row as 1.5rem -->
+             <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100 job-card">
+                    <div class="card-body d-flex flex-column gap-3 p-4">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-semibold text-muted">Stripe</span>
+                            <span class="badge bg-success-subtle text-success rounded-pill"> Remote</span>
+                            <!-- bg-success-subtle => bootstrap light green color -->
+                        </div>
+                        <h5 class="fw-semibold mb-0">Frontend Engineer</h5>
+                        <p class="text-muted small mb-0">90k$ - 130k$ / year</p>
+                        <a href="#" class="btn btn-accent rounded-pill mt-auto w-10 fw-semibold">Apply now</a>
+                    </div>
+                    <!-- card-body => bootstrap class for content inside card -->
+                    <!-- d-flex => display flex -->
+                    <!-- flex-column => flex-direction column -->
+                    <!-- gap-3 => gap 1 rem -->
+                    <!-- p-4 => padding 1.5 rem -->
+                </div>
+                <!-- job-card = our custom class -->
+                <!-- card = bootstrap class for card layout -->
+                <!-- border-0 => removes default bootstrap grey border -->
+                <!-- shadow-sm = implements small box-shadow -->
+                <!-- h-100 => sets the card height to 100% -->
+             </div>
+             <!-- col = column md is for mid screen 768pixels or higher and 4 represents 4 of 12 columns -->
+             <!-- End of  of card-1................ -->
+            </div>
+        </div>
+     </section>
 </body>
 </html>
